@@ -1,0 +1,163 @@
+*{
+  font-family: "poppiens";
+}
+.name{
+  color:rgb(0, 0, 0);
+  font-Size: 60px;
+  font-Weight:bold;
+  /* padding-Top:18%; */
+/* padding-left: 38%; */
+}
+
+
+.container {
+color: #e5e5e5;
+font-size: 2.26rem;
+/* text-transform: uppercase; */
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.animation {
+height:50px;
+overflow:hidden;
+/* margin-left: 42%; */
+}
+
+.animation > div > div {
+padding: 0.25rem 0.75rem;
+height:3rem;
+margin-bottom: 2.81rem;
+display:inline-block;
+color: white;
+font-size: 30px;
+}
+
+.animation div:first-child {
+animation: text-animation 8s infinite;
+}
+
+.first div {
+background-color:#20a7d8;
+}
+.second div {
+background-color:#CD921E;
+}
+
+@keyframes text-animation {
+0% {margin-top: 0;}
+10% {margin-top: 0;}
+20% {margin-top: -5.62rem;}
+30% {margin-top: -5.62rem;}
+40% {margin-top: -11.24rem;}
+60% {margin-top: -11.24rem;}
+70% {margin-top: -5.62rem;}
+80% {margin-top: -5.62rem;}
+90% {margin-top: 0;}
+100% {margin-top: 0;}
+}
+
+.descn{
+color: rgb(0, 0, 0);
+/* margin-left: 38%; */
+}
+
+
+
+.main{
+  height:30vh;
+  width:100%;  
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+h1{
+  text-align:center;
+  text-transform: uppercase;
+  color: #f00c99; 
+  font-size: 4rem;
+}
+
+.roller{
+  height: 4.125rem;
+  line-height: 4rem;
+  position: relative;
+  overflow: hidden; 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1D3557;
+}
+
+
+#spare-time{
+  font-size: 1rem;
+  font-style: italic;
+  letter-spacing: 1rem;
+  margin-top: 0;
+  color: #A8DADC;
+  
+}
+
+.roller #rolltext {
+  position: absolute;
+  top: 0;
+  animation: slide 5s infinite;  
+}
+
+@keyframes slide {
+  0%{
+    top:0;
+  }
+  25%{
+    top: -4rem;    
+  }
+  50%{
+    top: -8rem;
+  }
+  72.5%{
+    top: -12.25rem;
+  }
+}
+
+@media screen and (max-width: 600px){
+  h1{
+  text-align:center;
+  text-transform: uppercase;
+  color: #F1FAEE; 
+  font-size: 2.125rem;
+}
+  
+  .roller{
+  height: 2.6rem; 
+  line-height: 2.125rem;  
+  }
+  
+  #spare-time {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+  }
+  
+  .roller #rolltext {  
+  animation: slide-mob 5s infinite;  
+}
+  
+  @keyframes slide-mob {
+  0%{
+    top:0;
+  }
+  25%{
+    top: -2.125rem;    
+  }
+  50%{
+    top: -4.25rem;
+  }
+  72.5%{
+    top: -6.375rem;
+  }
+}
+}
