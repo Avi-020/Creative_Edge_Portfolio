@@ -18,7 +18,7 @@ const Projects = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Want to work with our company?
+          Want to work with our company&#63;
         </StyledLink>
       </StyledParagraph>
       <ProjectsContainer>

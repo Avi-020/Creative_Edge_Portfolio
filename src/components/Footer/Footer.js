@@ -35,7 +35,7 @@ const Footer = () => {
           href="mailto:shingeutkarsh3919@gmail.com"
           data-hover="Let's talk!"
         >
-          Need a developer?
+          Need a developer&#63;
         </FooterBigLink>
       </FooterBigLinkContainer>
       <FooterContacts id="footer">
@@ -73,7 +73,7 @@ const Footer = () => {
           </FooterSocials>
         </FooterContact>
         <FooterContact>
-          <ContactHeader>Let's grab a coffee.</ContactHeader>
+          <ContactHeader>Lets grab a coffee.</ContactHeader>
           <ContactLink href="mailto:shingeutkarsh3919@gmail.com">
             shingeutkarsh3919@gmail.com
           </ContactLink>
