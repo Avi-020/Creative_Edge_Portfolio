@@ -51,8 +51,8 @@ const Navbar = () => {
 
         <div style={{ marginTop: '60px', marginLeft: '20px' }}>
           <HeaderHeading dark="true" mb="3rem">
-            <HeaderTitle dark="true">
-              Creative Edge        </HeaderTitle>
+            <HeaderTitle dark="true" >
+              Creative Edge       </HeaderTitle>
           </HeaderHeading>
         </div>
       </div>
@@ -118,7 +118,7 @@ const Navbar = () => {
 
       </NavMenuList>
       <StyledCTA
-        href="mailto:shingeutkarsh3919@gmail.com "
+        href="mailto:creativeedge0105@gmail.com "
         target="_blank"
         rel="noreferrer"
       >

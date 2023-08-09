@@ -5,6 +5,8 @@ import {
   project2Mobile,
   project3Laptop,
   project3Mobile,
+  project4Mobile,
+  project4Mobileapp
 } from "./projectImages";
 
 export const projectData = [
@@ -28,6 +30,13 @@ export const projectData = [
     image: project2Laptop,
     transitionImage: project2Mobile,
     title: "Website Development",
+    // description:"Tripoto is a travel Booking website, for providing end to end solution to to your travelling by making your bookings handy.",
+  },
+  {
+    id: 3,
+    image:project4Mobileapp ,
+    transitionImage: project4Mobile,
+    title: "Mobile Application",
     // description:"Tripoto is a travel Booking website, for providing end to end solution to to your travelling by making your bookings handy.",
   },
   

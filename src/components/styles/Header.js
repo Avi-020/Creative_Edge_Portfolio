@@ -6,6 +6,7 @@ export const HeaderHeading = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  white-space: nowrap;
   margin-bottom: ${(props) => props.mb || "8rem"};
 `;
 

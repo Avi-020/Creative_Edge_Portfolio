@@ -4,6 +4,8 @@ import project2Laptop from "../../assets/projects/project-2-laptop.jpg";
 import project2Mobile from "../../assets/projects/project-2-mobile.jpg";
 import project3Laptop from "../../assets/projects/project-3-laptop.jpg";
 import project3Mobile from "../../assets/projects/project-3-mobile.jpg";
+import project4Mobile from "../../assets/projects/projec-4-mobile.jpg";
+import project4Mobileapp from "../../assets/projects/project-4-moblieapplication.png";
 
 
 export {
@@ -13,4 +15,8 @@ export {
   project2Mobile,
   project3Laptop,
   project3Mobile,
+  project4Mobile,
+  project4Mobileapp
+
+
 };

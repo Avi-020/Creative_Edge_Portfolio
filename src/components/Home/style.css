@@ -82,7 +82,7 @@ h1{
 }
 
 .roller{
-  height: 4.125rem;
+  height: 5.125rem;
   line-height: 4rem;
   position: relative;
   overflow: hidden; 
@@ -106,7 +106,7 @@ h1{
 .roller #rolltext {
   position: absolute;
   top: 0;
-  animation: slide 5s infinite;  
+  animation: slide 8s infinite;  
 }
 
 @keyframes slide {
@@ -117,10 +117,10 @@ h1{
     top: -4rem;    
   }
   50%{
-    top: -8rem;
+    top: -14rem;
   }
   72.5%{
-    top: -12.25rem;
+    top: -23rem;
   }
 }
 
