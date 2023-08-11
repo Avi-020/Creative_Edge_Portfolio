@@ -84,7 +84,7 @@ const Home = () => {
           </Social>
 
           <Social
-            href="https://instagram.com/_creative_edge__?igshid=ZDc4ODBmNjlmNQ=="
+            href="https://www.instagram.com/creativeedgetech/?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"
             target="_blank"
             rel="noopener noreferrer"
           >
