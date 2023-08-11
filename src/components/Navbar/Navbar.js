@@ -52,7 +52,7 @@ const Navbar = () => {
         <div style={{ marginTop: '60px', marginLeft: '20px' }}>
           <HeaderHeading dark="true" mb="3rem">
             <HeaderTitle dark="true" >
-              Creative Edge       </HeaderTitle>
+              Creative Edge &nbsp;   </HeaderTitle>
           </HeaderHeading>
         </div>
       </div>

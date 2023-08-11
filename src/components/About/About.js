@@ -15,7 +15,10 @@ const About = () => {
     <StyledAbout id="about">
       <SectionHeading dark="true" mb="3rem">
         <SectionTitle dark="true">
+          <span style={{color:"white"}}>
+
           About Start-Up
+          </span>
         </SectionTitle>
       </SectionHeading>
       <AboutContent>

@@ -41,7 +41,7 @@ const Footer = () => {
       <FooterContacts id="footer">
         <FooterContact>
           <ContactHeader>Contact Us</ContactHeader>
-          <ContactLink href="tel:+91 8378853919">+91 9067661322 / 9112128900</ContactLink>
+          <ContactLink href="tel:+91 8378853919"> +91 83788 53919 / +91 9067661322 </ContactLink>
         </FooterContact>
         <FooterContact>
           <ContactHeader>Social Links</ContactHeader>{" "}
