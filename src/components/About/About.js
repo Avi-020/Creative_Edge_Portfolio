@@ -8,7 +8,7 @@ import {
 } from "../styles/About.styled";
 import { SectionHeading, SectionTitle } from "../styles/SectionHeading";
 import { StyledParagraph } from "../styles/Typography.styled";
-import uibg from "../../assets/icons/uibg.svg";
+import about from "../../assets/projects/about.png";
 
 const About = () => {
   return (
@@ -22,7 +22,12 @@ const About = () => {
         </SectionTitle>
       </SectionHeading>
       <AboutContent>
-          {/* <AboutImage style={{width:"30vw",height:"50vw"}} src={uibg} /> */}
+          {/* <AboutImage style={{width: "30vw",height:"50vw"}} src={uibg} /> */}
+          <AboutImageContainer>
+
+          <AboutImage  src={about} />
+          </AboutImageContainer>
+
         <AboutDetailsContainer>
           <StyledParagraph>
             At Creative Edge&sbquo; we are passionate about merging art with technology to deliver unparalleled digital experiences. With a team of highly skilled designers and developers&sbquo; we have established ourselves as industry leaders in UI/UX design&sbquo; graphic design&sbquo; and web development.

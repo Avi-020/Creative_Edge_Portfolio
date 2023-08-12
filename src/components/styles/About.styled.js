@@ -21,6 +21,7 @@ export const AboutImageContainer = styled.div`
   height: 30rem;
   z-index: 3;
   
+  
   &::after {
     content: "";
     position: absolute;
@@ -39,10 +40,10 @@ export const AboutImageContainer = styled.div`
     position: absolute;
     inset: 0 0 0 0;
     // background: rgb(13, 14, 14, 0.199);
-    background: rgb(13, 14, 14, 0.199);  
+    // background: rgb(13, 14, 14, 0.199);  
     opacity: 0.8;
     z-index: 2;
-    border-radius:50%;
+    // border-radius:10%;
     width: 90%;
     height: 97%;
   }
@@ -51,6 +52,7 @@ export const AboutImageContainer = styled.div`
     width: 100%;
     height: 20rem;
     margin-bottom: 1.75rem;
+    text-align:center;
     
     
     &::after {
@@ -62,9 +64,10 @@ export const AboutImageContainer = styled.div`
 `;
 
 export const AboutImage = styled.img`
-  width: 90%;
-  height: 97%;
+  width: 100%;
+  height: 100%;
   object-fit: scale-down;
+  // background-color: red;
   position: relative;
   border-radius: 1px;
   // border-radius: 50%;
