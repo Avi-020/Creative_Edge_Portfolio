@@ -91,16 +91,16 @@ const Home = () => {
             <FaInstagram />
           </Social>
 
-          <Social
+          {/* <Social
           href="https://www.behance.net/utkarsh-shinge"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaBehance />
-        </Social>
+        </Social> */}
 
           <Social
-            href="https://www.linkedin.com/in/utkarsh-shinge/"
+            href="https://www.linkedin.com/in/creativeedge-tech"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -20,7 +20,7 @@ export const StyledNavbar = styled.nav`
     left: 0;
     right: 0;
     top: 0;
-    background-color: ${({ theme }) => theme.backgroundColor.dark};
+    background-color: #11112B;
     height: 5.32875rem;
     z-index: 999;
   }
@@ -42,6 +42,8 @@ export const NavMenuList = styled.ul`
   gap: 1.5rem;
   flex: 1;
   margin-left: 8rem;
+
+   
   
   @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     display: none;
@@ -55,12 +57,13 @@ export const NavList = styled.li``;
 export const StyledNavLinks = styled(NavLink)`
   font-size: 0.75rem;
   letter-spacing: 0.09375rem;
-  color: ${({ theme }) => theme.color.lightGray};
+  color: black;
   transition: 0.3s ease;
   text-transform: uppercase;
   position: relative;
   font-weight: 500;
   cursor: pointer;
+
 
   &::after {
     content: "";
@@ -78,10 +81,18 @@ export const StyledNavLinks = styled(NavLink)`
   &:hover::after {
     width: 100%;
   }
+  
+  &.sticky {
+    color:white;
+ 
+  }
+  &.sticky.active {
+   color: white;
+ }
 
   &.active {
     // color: ${({ theme }) => theme.color.light};
-    color: ${({ theme }) => theme.color.lightGray};
+    color: black;
   }
 
   &.active::after {
@@ -155,7 +166,7 @@ export const StyledCTA = styled.a`
 
   &::before {
     content: "";
-    background: ${({ theme }) => theme.backgroundColor.orange};
+    background: black;
     transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
     transform-origin: 100% 50%;
   }

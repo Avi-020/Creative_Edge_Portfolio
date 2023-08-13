@@ -54,16 +54,16 @@ const Footer = () => {
               Instagram
             </ContactLink>
 
-            <ContactLink
+            {/* <ContactLink
               href="https://www.behance.net/utkarsh-shinge"
               target="_blank"
               rel="noopener noreferrer"
             >
               Behance
-            </ContactLink>
+            </ContactLink> */}
 
             <ContactLink
-              href="https://www.linkedin.com/in/utkarsh-shinge/"
+              href="https://www.linkedin.com/in/creativeedge-tech"
               target="_blank"
               rel="noopener noreferrer"
             >

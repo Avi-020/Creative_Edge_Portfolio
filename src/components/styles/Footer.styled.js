@@ -4,7 +4,7 @@ import arrowUp from "../../assets//icons/icon-arrow-up.svg";
 export const StyledFooter = styled.footer`
   // background-color: ${({ theme }) => theme.backgroundColor.dark};
   // color: ${({ theme }) => theme.color.tertiaryLight};
-  background-color: ${({ theme }) => theme.backgroundColor.tertiaryLight};
+  background-color: #D5D9E5;
   color: ${({ theme }) => theme.color.dark};
 `;
 

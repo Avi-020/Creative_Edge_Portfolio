@@ -66,10 +66,11 @@ export const MobileButton = styled.a`
   transition: 0.3s ease;
   text-transform: uppercase;
   padding: 0.8rem 1.5rem;
-  background: ${({ theme }) => theme.backgroundColor.darkGray};
+  background: white;
   transition: 0.3s ease;
   position: relative;
   overflow: hidden;
+  color:black;
 
   &::before,
   &::after {
@@ -116,7 +117,7 @@ export const MobileButton = styled.a`
 
   &::before {
     content: "";
-    background: ${({ theme }) => theme.backgroundColor.orange};
+    background: white;
     transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
     transform-origin: 100% 50%;
   }

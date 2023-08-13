@@ -60,6 +60,7 @@ const Navbar = () => {
       <NavMenuList>
         <NavList>
           <StyledNavLinks
+           className={stickyNav ? "sticky" : ""}
             to="home"
             smooth={true}
             duration={0}
@@ -74,6 +75,7 @@ const Navbar = () => {
         </NavList>
         <NavList>
           <StyledNavLinks
+            className={stickyNav ? "sticky" : ""}
             to="about"
             smooth={true}
             duration={0}
@@ -88,6 +90,7 @@ const Navbar = () => {
         </NavList>
         <NavList>
           <StyledNavLinks
+            className={stickyNav ? "sticky" : ""}
             to="projects"
             smooth={true}
             duration={0}
@@ -103,6 +106,7 @@ const Navbar = () => {
 
         <NavList>
           <StyledNavLinks
+            className={stickyNav ? "sticky" : ""}
             to="footer"
             smooth={true}
             duration={0}
