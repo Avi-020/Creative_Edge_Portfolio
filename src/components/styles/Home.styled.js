@@ -4,7 +4,7 @@ export const StyledHome = styled.section`
   // background-color:#D5D9E5;
   // color: ${({ theme }) => theme.color.lightGray};
 
-  background-color: #D5D9E5;
+  background-color: #ffffff;
   color: ${({ theme }) => theme.color.dark};
   display: flex;
   flex-direction: column;
