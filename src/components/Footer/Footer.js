@@ -32,7 +32,7 @@ const Footer = () => {
 
       <FooterBigLinkContainer>
         <FooterBigLink
-          href="mailto:creativeedge0105@gmail.com"
+          href="mailto:creativeedgetech00@gmail.com"
           data-hover="Let's talk!"
         >
           Need a developer&#63;
@@ -41,7 +41,7 @@ const Footer = () => {
       <FooterContacts id="footer">
         <FooterContact>
           <ContactHeader>Contact Us</ContactHeader>
-          <ContactLink href="tel:+91 8378853919"> +91 83788 53919 / +91 9067661322 </ContactLink>
+          <ContactLink href="tel:+91 8378853919">  +91 9067661322 </ContactLink>
         </FooterContact>
         <FooterContact>
           <ContactHeader>Social Links</ContactHeader>{" "}
@@ -74,8 +74,8 @@ const Footer = () => {
         </FooterContact>
         <FooterContact>
           <ContactHeader>Lets grab a coffee.</ContactHeader>
-          <ContactLink href="mailto:creativeedge0105@gmail.com">
-          creativeedge0105@gmail.com
+          <ContactLink href="mailto:creativeedgetech00@gmail.com">
+            creativeedgetech00@gmail.com
           </ContactLink>
         </FooterContact>
       </FooterContacts>

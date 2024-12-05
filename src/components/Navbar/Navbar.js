@@ -43,7 +43,7 @@ const Navbar = () => {
 
   return (
     <StyledNavbar className={stickyNav ? "sticky" : ""}>
-    
+
       <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
         <div style={{ height: '50px', marginTop: '55px' }}>
           <AboutImage style={{}} src={logo} />
@@ -60,7 +60,7 @@ const Navbar = () => {
       <NavMenuList>
         <NavList>
           <StyledNavLinks
-           className={stickyNav ? "sticky" : ""}
+            className={stickyNav ? "sticky" : ""}
             to="home"
             smooth={true}
             duration={0}
@@ -122,7 +122,7 @@ const Navbar = () => {
 
       </NavMenuList>
       <StyledCTA
-        href="mailto:creativeedge0105@gmail.com "
+        href="mailto:creativeedgetech00@gmail.com "
         target="_blank"
         rel="noreferrer"
       >

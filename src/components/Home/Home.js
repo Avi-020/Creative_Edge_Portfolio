@@ -27,14 +27,14 @@ const Home = () => {
         <div class="main">
           <h1>This is purely <div class="roller">
             <span id="rolltext"> Website Devlopment  Mobile Applications
-           
-             UI UX & Graphic Design<br /></span>
+
+              UI UX & Graphic Design<br /></span>
           </div>
           </h1>
 
         </div>
 
-       
+
         <StyledButtonsContainer>
           <StyledButton
             icon={projectIcon}
@@ -76,7 +76,7 @@ const Home = () => {
         </Greeting>
         <Socials>
           <Social
-            href="mailto:creativeedge0105@gmail.com"
+            href="mailto:creativeedgetech00@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
