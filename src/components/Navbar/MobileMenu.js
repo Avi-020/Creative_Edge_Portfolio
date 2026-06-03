@@ -34,7 +34,6 @@ const MobileMenu = ({ isOpen, toggle }) => {
           Contact
         </MobileMenuLink>
 
-
         <MobileButton
           href="mailto:creativeedge0020@gmail.com"
           target="_blank"
@@ -66,7 +65,7 @@ const MobileMenu = ({ isOpen, toggle }) => {
         </MobileSocial>
 
         <MobileSocial
-          href="https://www.instagram.com/creativeedgetech/?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"
+          href="https://www.instagram.com/creativeedge.team?igsh=MXQ2eDZhZmZoN2VwYw%3D%3D"
           target="_blank"
           rel="noopener noreferrer"
         >

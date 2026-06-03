@@ -23,17 +23,18 @@ const Home = () => {
   return (
     <IconContext.Provider value={{ size: "1rem" }}>
       <StyledHome id="home">
-
         <div class="main">
-          <h1>This is purely <div class="roller">
-            <span id="rolltext"> Website Devlopment  Mobile Applications
-
-              UI UX & Graphic Design<br /></span>
-          </div>
+          <h1>
+            This is purely{" "}
+            <div class="roller">
+              <span id="rolltext">
+                {" "}
+                Website Devlopment Mobile Applications UI UX & Graphic Design
+                <br />
+              </span>
+            </div>
           </h1>
-
         </div>
-
 
         <StyledButtonsContainer>
           <StyledButton
@@ -84,7 +85,7 @@ const Home = () => {
           </Social>
 
           <Social
-            href="https://www.instagram.com/creativeedgetech/?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"
+            href="https://www.instagram.com/creativeedge.team?igsh=MXQ2eDZhZmZoN2VwYw%3D%3D"
             target="_blank"
             rel="noopener noreferrer"
           >

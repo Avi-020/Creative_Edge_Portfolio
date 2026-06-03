@@ -25,7 +25,7 @@ const toTop = () => {
 const Footer = () => {
   const year = new Date().getFullYear();
   return (
-    <StyledFooter >
+    <StyledFooter>
       <FooterSmallTitleWrapper>
         <FooterSmallTitle>get in touch</FooterSmallTitle>
       </FooterSmallTitleWrapper>
@@ -35,19 +35,19 @@ const Footer = () => {
           href="mailto:avipawar020@gmail.com"
           data-hover="Let's talk!"
         >
-          Need a developer&#63;
+          Need a Website&#63;
         </FooterBigLink>
       </FooterBigLinkContainer>
       <FooterContacts id="footer">
         <FooterContact>
           <ContactHeader>Contact Us</ContactHeader>
-          <ContactLink href="tel:+919067661322">  +91 9067661322 </ContactLink>
+          <ContactLink href="tel:+919067661322"> +91 9067661322 </ContactLink>
         </FooterContact>
         <FooterContact>
           <ContactHeader>Social Links</ContactHeader>{" "}
           <FooterSocials>
             <ContactLink
-              href="https://www.instagram.com/creativeedgetech/?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"
+              href="https://www.instagram.com/creativeedge.team?igsh=MXQ2eDZhZmZoN2VwYw%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -69,7 +69,6 @@ const Footer = () => {
             >
               LinkedIn
             </ContactLink>
-
           </FooterSocials>
         </FooterContact>
         <FooterContact>
@@ -88,11 +87,9 @@ const Footer = () => {
       <Copyright>
         <small>
           &copy; Copyright {year},{" "}
-          <Small
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Creative Edge          </Small>
+          <Small target="_blank" rel="noopener noreferrer">
+            Creative Edge{" "}
+          </Small>
         </small>
       </Copyright>
     </StyledFooter>
