@@ -1,0 +1,168 @@
+.about {
+  background: #f5f5f5;
+  padding: 120px 8%;
+  overflow: hidden;
+}
+
+.about-container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Section Label */
+
+.about-heading {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 60px;
+}
+
+.about-heading span {
+  width: 60px;
+  height: 2px;
+  background: #e84d8a;
+}
+
+.about-heading p {
+  font-size: 13px;
+  letter-spacing: 4px;
+  color: #777;
+  margin: 0;
+}
+
+/* Main Layout */
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 100px;
+  align-items: start;
+}
+
+/* Left */
+
+.about-left h2 {
+  font-size: clamp(3rem, 6vw, 6rem);
+  line-height: 1.05;
+  color: #0b1033;
+  font-weight: 700;
+  margin: 0;
+}
+
+.about-left h2 span {
+  color: #e84d8a;
+}
+
+/* Right */
+
+.about-right {
+  max-width: 500px;
+}
+
+.about-right p {
+  color: #666;
+  line-height: 2;
+  font-size: clamp(15px, 1.2vw, 18px);
+  margin-bottom: 25px;
+}
+
+.about-right a {
+  display: inline-block;
+  text-decoration: none;
+  color: #0b1033;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.about-right a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 1px;
+  background: #e84d8a;
+  transition: 0.3s ease;
+}
+
+.about-right a:hover::after {
+  width: 70%;
+}
+
+/* =======================
+   TABLET
+======================= */
+
+@media (max-width: 1024px) {
+  .about {
+    padding: 100px 6%;
+  }
+
+  .about-content {
+    gap: 60px;
+  }
+}
+
+/* =======================
+   MOBILE LANDSCAPE
+======================= */
+
+@media (max-width: 768px) {
+  .about {
+    padding: 80px 6%;
+  }
+
+  .about-heading {
+    margin-bottom: 40px;
+  }
+
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .about-right {
+    max-width: 100%;
+  }
+
+  .about-left h2 {
+    font-size: clamp(2.5rem, 8vw, 4rem);
+  }
+}
+
+/* =======================
+   SMALL MOBILE
+======================= */
+
+@media (max-width: 480px) {
+  .about {
+    padding: 70px 5%;
+  }
+
+  .about-heading {
+    gap: 10px;
+  }
+
+  .about-heading span {
+    width: 40px;
+  }
+
+  .about-heading p {
+    font-size: 11px;
+    letter-spacing: 3px;
+  }
+
+  .about-left h2 {
+    font-size: 2.2rem;
+    line-height: 1.1;
+  }
+
+  .about-right p {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+}

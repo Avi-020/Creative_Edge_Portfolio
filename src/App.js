@@ -1,4 +1,4 @@
-import About from "./components/About/About";
+// import About from "./components/About/About";
 import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
@@ -7,15 +7,15 @@ import GlobalStyles from "./components/styles/Global";
 import { ThemeProvider } from "styled-components";
 import { theme } from "./components/styles/Theme";
 import { BrowserRouter as Router } from "react-router-dom";
+import TrustedClients from "./components/TrustedClients";
+import AboutUs from "./components/AboutUs";
 
 function App() {
   console.log(
     "%cThank you for checking up of my portfolio. Wishing you the best for every step in your journey!🎉",
-    "color: #233142; font-weight: 500; font-size:16px"
+    "color: #233142; font-weight: 500; font-size:16px",
   );
-  console.log(
-    "color: white; font-weight: 500; font-size:16px"
-  );
+  console.log("color: white; font-weight: 500; font-size:16px");
   return (
     <Router>
       <ThemeProvider theme={theme}>
@@ -23,8 +23,11 @@ function App() {
           <GlobalStyles />
           <Navbar />
           <Home />
-          <About />
+          <AboutUs />
+          {/* <About /> */}
+
           <Projects />
+          <TrustedClients />
           <Footer />
         </>
       </ThemeProvider>

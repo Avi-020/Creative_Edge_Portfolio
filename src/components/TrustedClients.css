@@ -1,0 +1,92 @@
+/* TrustedClients.css */
+
+.trusted-section {
+  background: #f5f5f5;
+  padding: 120px 8%;
+}
+
+.trusted-header {
+  max-width: 700px;
+  margin-bottom: 70px;
+}
+
+.trusted-line {
+  width: 70px;
+  height: 2px;
+  background: #e84d8a;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.trusted-subtitle {
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #888;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.trusted-header h2 {
+  font-size: clamp(2.8rem, 5vw, 4.5rem);
+  line-height: 1.1;
+  color: #0b1033;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.trusted-header h2 span {
+  color: #e84d8a;
+}
+
+.trusted-description {
+  max-width: 600px;
+  color: #777;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+.trusted-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.stat-card {
+  border-top: 2px solid #e84d8a;
+  padding-top: 25px;
+  transition: 0.3s ease;
+}
+
+.stat-card h3 {
+  font-size: 4rem;
+  color: #0b1033;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.stat-card p {
+  color: #777;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.stat-card:hover {
+  transform: translateY(-6px);
+}
+
+@media (max-width: 992px) {
+  .trusted-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .trusted-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stat-card h3 {
+    font-size: 3rem;
+  }
+}
