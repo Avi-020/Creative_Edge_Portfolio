@@ -8,7 +8,6 @@ import {
   MobileButton,
   MobileSocials,
   MobileSocial,
-  MobileQuote,
   CloseText,
 } from "../styles/MobileMenu.styled";
 

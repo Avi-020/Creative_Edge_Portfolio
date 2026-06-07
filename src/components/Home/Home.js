@@ -14,7 +14,7 @@ import projectIcon from "../../assets/icons/project-icon.svg";
 import aboutIcon from "../../assets/icons/about-me.svg";
 import { IconContext } from "react-icons";
 import { GrLinkedinOption } from "react-icons/gr";
-import { FaBehance, FaEnvelope, FaInstagram } from "react-icons/fa";
+import { FaEnvelope, FaInstagram } from "react-icons/fa";
 
 const Home = () => {
   let today = new Date(),

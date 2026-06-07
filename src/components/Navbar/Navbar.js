@@ -9,14 +9,10 @@ import {
   StyledNavLinks,
 } from "../styles/Navbar.styled";
 // import logo from "../../assets/logo.jpg";
-import { animateScroll as scroll } from "react-scroll";
 import MobileMenu from "./MobileMenu";
 import { HeaderHeading, HeaderTitle } from "../styles/Header";
-import logo from "../../assets/icons/logo.png"
-import {
-  AboutImage
-} from "../styles/About.styled";
-
+import logo from "../../assets/icons/logo.png";
+import { AboutImage } from "../styles/About.styled";
 
 const Navbar = () => {
   const [stickyNav, setStickyNav] = useState(false);
@@ -32,10 +28,6 @@ const Navbar = () => {
 
   window.addEventListener("scroll", stickyNavFunction);
 
-  const toTop = () => {
-    scroll.scrollToTop({ delay: 0, duration: 0 });
-  };
-
   // mobile toggle
   const toggle = () => {
     setIsOpen(!isOpen);
@@ -43,16 +35,20 @@ const Navbar = () => {
 
   return (
     <StyledNavbar className={stickyNav ? "sticky" : ""}>
-
-      <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
-        <div style={{ height: '50px', marginTop: '55px' }}>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "space-between",
+        }}
+      >
+        <div style={{ height: "50px", marginTop: "55px" }}>
           <AboutImage style={{}} src={logo} />
         </div>
 
-        <div style={{ marginTop: '60px', marginLeft: '20px' }}>
+        <div style={{ marginTop: "60px", marginLeft: "20px" }}>
           <HeaderHeading dark="true" mb="3rem">
-            <HeaderTitle dark="true" >
-              Creative Edge &nbsp;   </HeaderTitle>
+            <HeaderTitle dark="true">Creative Edge &nbsp; </HeaderTitle>
           </HeaderHeading>
         </div>
       </div>
@@ -119,7 +115,6 @@ const Navbar = () => {
             Contact
           </StyledNavLinks>
         </NavList>
-
       </NavMenuList>
       <StyledCTA
         href="mailto:creativeedge0020@gmail.com "
