@@ -64,11 +64,11 @@ const Footer = () => {
             </ContactLink> */}
 
             <ContactLink
-              href="https://www.linkedin.com/in/creativeedge-tech"
+              href="https://wa.me/+919067661322"
               target="_blank"
               rel="noopener noreferrer"
             >
-              LinkedIn
+              WhatsApp
             </ContactLink>
           </FooterSocials>
         </FooterContact>

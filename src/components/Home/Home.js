@@ -13,8 +13,7 @@ import "./style.css";
 import projectIcon from "../../assets/icons/project-icon.svg";
 import aboutIcon from "../../assets/icons/about-me.svg";
 import { IconContext } from "react-icons";
-import { GrLinkedinOption } from "react-icons/gr";
-import { FaEnvelope, FaInstagram } from "react-icons/fa";
+import { FaEnvelope, FaWhatsapp, FaInstagram } from "react-icons/fa";
 
 const Home = () => {
   let today = new Date(),
@@ -101,11 +100,11 @@ const Home = () => {
         </Social> */}
 
           <Social
-            href="https://www.linkedin.com/in/creativeedge-tech"
+            href="https://wa.me/+919067661322"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <GrLinkedinOption />
+            <FaWhatsapp />
           </Social>
         </Socials>
         <Quote>Turning Visions Into Brands</Quote>
