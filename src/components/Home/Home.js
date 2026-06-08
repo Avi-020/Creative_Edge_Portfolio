@@ -29,8 +29,7 @@ const Home = () => {
             <div class="roller">
               <span id="rolltext">
                 {" "}
-                Website Devlopment Mobile Applications UI UX &amp; Graphic
-                Design
+                Website Devlopment Mobile Applications Softwere Devlopment
                 <br />
               </span>
             </div>

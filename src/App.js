@@ -9,6 +9,8 @@ import { theme } from "./components/styles/Theme";
 import { BrowserRouter as Router } from "react-router-dom";
 import TrustedClients from "./components/TrustedClients";
 import AboutUs from "./components/AboutUs";
+import Reviews from "./components/reviews/Reviews";
+import CTASection from "./components/CTASection/CTASection";
 
 function App() {
   console.log(
@@ -25,7 +27,8 @@ function App() {
           <Home />
           <AboutUs />
           {/* <About /> */}
-
+          <Reviews />
+          <CTASection />
           <Projects />
           <TrustedClients />
           <Footer />

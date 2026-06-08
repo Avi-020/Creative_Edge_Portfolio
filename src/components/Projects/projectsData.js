@@ -6,7 +6,7 @@ import {
   project3Laptop,
   project3Mobile,
   project4Mobile,
-  project4Mobileapp
+  project4Mobileapp,
 } from "./projectImages";
 
 export const projectData = [
@@ -17,12 +17,12 @@ export const projectData = [
     title: "UI UX Design",
     // description: "Web Screens & Mobile Apps"
   },
-  
+
   {
     id: 2,
     image: project3Laptop,
     transitionImage: project3Mobile,
-    title: "Graphic Design",
+    title: "Softwere Devlopment",
     // description:"Freshly is a healthy food app were you can able to order your favourite food dish via online.",
   },
   {
@@ -34,10 +34,9 @@ export const projectData = [
   },
   {
     id: 3,
-    image:project4Mobileapp ,
+    image: project4Mobileapp,
     transitionImage: project4Mobile,
     title: "Mobile Application",
     // description:"Tripoto is a travel Booking website, for providing end to end solution to to your travelling by making your bookings handy.",
   },
-  
 ];

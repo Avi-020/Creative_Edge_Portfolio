@@ -1,0 +1,145 @@
+.cta-section {
+  max-width: 1200px;
+  margin: 100px auto;
+  padding: 80px;
+  border-radius: 30px;
+
+  background: linear-gradient(135deg, #0b123d, #16235d);
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+.cta-left span {
+  color: #d63c84;
+  letter-spacing: 3px;
+  font-size: 14px;
+}
+
+.cta-left h2 {
+  color: white;
+  font-size: 4rem;
+  line-height: 1.1;
+  margin-top: 20px;
+}
+
+.cta-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cta-right p {
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.primary-btn {
+  background: #d63c84;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+/* Modal */
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.6);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 999;
+}
+
+.booking-modal {
+  width: 90%;
+  max-width: 900px;
+
+  background: white;
+  border-radius: 20px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  overflow: hidden;
+
+  position: relative;
+}
+
+.modal-left {
+  background: #f5f5f5;
+  padding: 40px;
+}
+
+.modal-right {
+  padding: 40px;
+}
+
+.modal-right input,
+.modal-right select {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 15px;
+}
+
+.schedule-btn {
+  width: 100%;
+  padding: 15px;
+
+  background: #0b123d;
+  color: white;
+  border: none;
+}
+
+.close-btn {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+
+  background: none;
+  border: none;
+
+  font-size: 30px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .cta-section {
+    grid-template-columns: 1fr;
+    padding: 40px 25px;
+    margin: 60px 20px;
+  }
+
+  .cta-left h2 {
+    font-size: 2.5rem;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+  }
+
+  .booking-modal {
+    grid-template-columns: 1fr;
+  }
+}
